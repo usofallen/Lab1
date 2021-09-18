@@ -1,0 +1,101 @@
+/* Menu */
+.bg-dark {
+  background-color: #002249 !important;
+}
+
+body {
+  background-color: #fff;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image {
+  margin: 10px;
+  width: 500px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* .portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+} */
+.homeimage img {
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: #002249;
+  border-top: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+h2 {
+  display: flex;
+  padding: 10px;
+  padding-top: 20px;
+  color: #000000;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+}
+
+.review {
+  margin: 25px;
+  background-color: #DDDDDD;
+  padding: 15px;
+  border: 2px solid #B5B5B5;
+}
+
+.rreview {
+  padding-bottom: 0px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #000000;
+  color: black;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.footer p {
+  margin-bottom: 0rem;
+}
+
+.footer a {
+  color: grey;
+}
